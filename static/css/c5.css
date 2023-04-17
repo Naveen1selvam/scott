@@ -1,0 +1,37 @@
+#a:hover
+{
+    background-color: aqua;
+}
+#b:hover
+{
+    background-color: rgb(238, 181, 25);
+}
+#c:hover
+{
+    color: white;
+    background-color: blue;
+}
+#d:hover
+{
+    background-color: chartreuse;
+}
+#e:hover
+{
+    background-color: crimson;
+}
+#f:hover
+{
+   background-color: darkturquoise;
+}
+#g:hover
+{
+    background-color: rgb(13, 112, 198);
+}
+#h:hover
+{
+    background-color: gold;
+}
+#i:hover
+{
+   background-color: springgreen;
+}

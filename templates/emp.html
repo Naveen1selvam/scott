@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c5.css' %}">
+</head>
+<body>
+    <center>
+        <h1>
+            EMPLOYEE TABLE
+        </h1>
+        <table border="3px">
+        <tr id="a">
+            <th>EMPNO</th>
+            <th>ENAME</th>
+            <th>JOB</th>
+            <th>MGR</th>
+            <th>HIREDATE</th>
+            <th>SALARY</th>
+            <th>COMMISSION</th>
+            <th>DEPTNO</th>
+        </tr>
+        
+           {% for i in et %}
+           <tr>
+            <td id="b">{{i.EmpNo}}</td>
+            <td id="c">{{i.EName}}</td>
+            <td id="d">{{i.Job}}</td>
+            <td id="e">{{i.Mgr}}</td>
+            <td id="f">{{i.HireDate}}</td>
+            <td id="g">{{i.Salary}}</td>
+            <td id="h">{{i.Commission}}</td>
+            <td id="i">{{i.DeptNo.DeptNo}}</td>
+        </tr>
+           {% endfor%}
+        
+    </table>
+
+    </center>
+</body>
+</html>
